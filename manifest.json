@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Quick Speak",
+    "version": "1.0",
+    "description": "Quick Speak allows you to listen to any highlighted text with right click on a webpage instantly.",
+    "icons": {
+        "128": "icons/icon128.png",
+        "48": "icons/icon48.png",
+        "16": "icons/icon16.png"
+    },
+    "action": {
+        "default_icon": "icons/icon16.png",
+        "default_title": "Quick Speak"
+    },
+    "background": {
+        "service_worker": "eventPage.js"
+    },
+    "permissions": [
+        "contextMenus",
+        "tts"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ]
+}
