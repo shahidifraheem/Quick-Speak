@@ -1,5 +1,5 @@
 # Privacy Policy for Quick Speak  
-**Last Updated:** [Date]
+**Last Updated:** 30/05/2025
 
 This extension ("Quick Speak") does **not** collect, store, or transmit any user data.  
 
